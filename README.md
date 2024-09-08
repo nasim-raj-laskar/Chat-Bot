@@ -56,60 +56,52 @@ This chatbot project combines natural language processing with a user-friendly i
 To set up the chatbot project on your local machine, follow these steps:
 
 1. **Clone the Repository**
+```bash
+git clone https://github.com/yourusername/your-repo-name.git
+cd your-repo-name
+```
 
-   ```bash
-   git clone https://github.com/yourusername/your-repo-name.git
-   cd your-repo-name
-   ```
 2. **Create a Virtual Environment**
-
 ```bash
 python -m venv env
 ```
 
 3. **Activate the Virtual Environment**
-
 • On Windows:
-
 ```bash
 .\env\Scripts\activate
 ```
 
 • On macOS/Linux:
-
 ```bash
 source env/bin/activate
 ```
-4. **Install Required Packages**
 
+4. **Install Required Packages**
 ```bash
 pip install -r requirements.txt
 ```
-If `requirements.txt` is not included, you can manually install the required packages:
 
+If `requirements.txt` is not included, you can manually install the required packages:
 ```bash
 pip install nltk torch tkinter
 ```
+
 5. **Download NLTK Data**
-
 Run the following script to download necessary NLTK data:
-
 ```python
 import nltk
 nltk.download('punkt')
 ```
+
 6. **Train the Model**
-
 Run the `train.py` script to train the model:
-
 ```bash
 python train.py
 ```
 
 7. **Run the Chatbot GUI**
-
 Start the chatbot GUI with:
-
 ```bash
 python app.py
 ```
@@ -152,5 +144,6 @@ This project is licensed under the MIT License – see the [LICENSE](LICENSE) fi
 ## Acknowledgements
 
 • PyTorch: For the deep learning framework.
+
 • NLTK: For natural language processing utilities.
    
