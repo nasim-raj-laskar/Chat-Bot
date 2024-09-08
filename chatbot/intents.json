@@ -1,0 +1,102 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Good morning",
+        "Good afternoon",
+        "Good evening"
+      ],
+      "responses": [
+        "Hello! How can I assist you today?",
+        "Hi there! What can I do for you?",
+        "Hey! How's it going?",
+        "Greetings! How can I help you?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "Take care",
+        "Have a great day"
+      ],
+      "responses": [
+        "Goodbye! Have a great day!",
+        "See you later!",
+        "Take care! Feel free to come back if you need anything.",
+        "Farewell! Hope to assist you again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "I appreciate it",
+        "Thanks a lot",
+        "Thank you so much"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Happy to help!",
+        "Anytime!",
+        "My pleasure!"
+      ]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "What services do you offer?",
+        "What can you help me with?",
+        "What features are available?",
+        "What do you provide?",
+        "How can I get started?",
+        "How can you help me?"
+      ],
+      "responses": [
+        "I can assist with answering questions and providing information on a wide range of topics.",
+        "I'm here to help with any queries you may have. How can I assist you today?",
+        "I offer information and assistance on various subjects. What do you need help with?",
+        "Let me know what you're looking for, and I'll do my best to assist you."
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke",
+        "Do you know any jokes?",
+        "Can you make me laugh?",
+        "Share a funny story",
+        "Tell me something funny"
+      ],
+      "responses": [
+        "Why don't scientists trust atoms? Because they make up everything!",
+        "Why did the scarecrow win an award? Because he was outstanding in his field!",
+        "How does a penguin build its house? Igloos it together!",
+        "Why dont skeletons fight each other? They dont have the guts."
+      ]
+    },
+    {
+      "tag": "query",
+      "patterns": [
+        "How does your service work?",
+        "Can you explain how to use this?",
+        "What can I do with this tool?",
+        "Tell me more about this feature",
+        "How can I get started?"
+      ],
+      "responses": [
+        "Our service works by providing you with information and answering your queries. Just ask me anything you need help with!",
+        "To use this tool, simply type your question or request, and I'll do my best to assist you.",
+        "This tool is designed to help you find information and answer your questions. Feel free to ask about any feature you're interested in.",
+        "To get started, just ask me your question or tell me what you're looking for, and I'll guide you through it."
+      ]
+    }
+  ]
+}
