@@ -57,8 +57,8 @@ To set up the chatbot project on your local machine, follow these steps:
 
 1. **Clone the Repository**
 ```bash
-git clone https://github.com/yourusername/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/nasim-raj-laskar/Chat-Bot.git
+cd Chat-Bot
 ```
 
 2. **Create a Virtual Environment**
