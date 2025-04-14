@@ -136,6 +136,3 @@ See the [LICENSE](LICENSE) file for more information.
 - [**NLTK**](https://www.nltk.org/) — Natural Language Toolkit for text preprocessing
 
 ---
-```
-
----
